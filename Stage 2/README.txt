@@ -1,5 +1,5 @@
 PROJECT TITLE: PostgreSQL.sql
-PURPOSE OF PROJECT: Stage 1 of University, Databases Systems ~ Assignment 3
+PURPOSE OF PROJECT: Stage 2 of University, Databases Systems ~ Assignment 3
 VERSION or DATE: 26/02/2020
 AUTHORS: Wai Shan (Karen) Yip
 EXPLANATION: 
@@ -39,3 +39,42 @@ Insert the provided data into the tables.
 school address for the accompanying instructor and the car model for the accompanying instructor.
 Sort alphabetically A-Z by client surname and then client forename.
 (2.6) Change all lessons on or after 12/06/2020 with the instructor James Joffries to be with instructor Jim Adams.
+
+
+PROJECT TITLE: In Class Assessment.sql
+PURPOSE OF PROJECT: Stage 2 of University, Databases Systems ~ In Class Assessment 4
+VERSION or DATE: 18/03/2020
+AUTHORS: Wai Shan (Karen) Yip
+EXPLANATION: 
+This focuses on the implementation of PostgreSQL.
+A hotel booking system uses a relational database to store information about hotels and bookings by customers for a particular room.
+A relational schema for the database is:
+customer ( cid, forename, surname, gender, town)
+hotel ( hid, name, town)
+room ( hid, num, type)
+booking ( hid, cid, dstart, ndays, room)
+num represents room number.
+type represents room type.
+dstart represents start date.
+ndays represents the number of days of a booking.
+Gender of the customer is either 'F' or 'M'.
+Types of rooms are 'Single', 'Double' or 'Family'.
+Hotels in the same town must have distinct names.
+
+1.
+Create 3 tables called customer, hotel and room using the information provided.
+
+2.
+Create the booking table using the information provided.
+
+3. 
+Register yourself as a customer.
+
+4. 
+Add a hotel named Hamlets in London.
+
+5.
+Record a double room in the Hamlets hotel just added.
+
+6. 
+Make a booking by you as the customer for the double room just created from 20th-25th June 2020.
