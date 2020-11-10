@@ -78,3 +78,6 @@ Record a double room in the Hamlets hotel just added.
 
 6. 
 Make a booking by you as the customer for the double room just created from 20th-25th June 2020.
+
+7. 
+Find out how many other customers who have also booked in the same hotel as you have done.
